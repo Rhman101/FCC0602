@@ -8,11 +8,11 @@ const issueSchema = new Schema({
     },
     issue_title: {
         type: String, 
-        required: true,
-        unique: true
+        required: true
     },
     issue_text: {
-        type: String
+        type: String,
+        required: true
     },
     created_by: {
         type: String,
